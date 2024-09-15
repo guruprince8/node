@@ -1,0 +1,32 @@
+== Info: Host localhost:3000 was resolved.
+== Info: IPv6: ::1
+== Info: IPv4: 127.0.0.1
+== Info:   Trying [::1]:3000...
+== Info: Connected to localhost (::1) port 3000
+=> Send header, 77 bytes (0x4d)
+0000: GET / HTTP/1.1
+0010: Host: localhost:3000
+0026: User-Agent: curl/8.5.0
+003e: Accept: */*
+004b: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: Express
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 11
+<= Recv header, 41 bytes (0x29)
+0000: ETag: W/"b-Ck1VqNd45QIvq3AZd8XYQLvEhtA"
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 15 Sep 2024 22:59:41 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Keep-Alive: timeout=5
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 11 bytes (0xb)
+0000: Hello World
+== Info: Connection #0 to host localhost left intact
